@@ -220,4 +220,13 @@ export class CreateRecordComponent implements OnInit {
     }
   }
 
+
+  // delete(){
+  //     this.rawMatService.recorddelete(this.recordlist.id).then(()=>{
+  //       // console.log()
+  //       this.deleterecord.hide();
+  //       this.router.navigate(['/create']);
+  //     })
+  //   }
+
 }
